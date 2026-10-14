@@ -1,0 +1,162 @@
+/* Estilos generales */
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #7b3939;
+  color: #333;
+}
+
+
+/* Hero */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+     url('images/aguacate\ verde.png.jpg.jpg') center/cover no-repeat;
+  color: white;
+  padding: 200px 0;
+  text-align: center;
+}
+
+/* Botón principal */
+.btn-success {
+  background-color: #568203;
+  border: none;
+}
+.btn-success:hover {
+  background-color: #456a02;
+}
+
+/* Beneficios */
+.benefits i {
+  font-size: 2.5rem;
+  color: #568203;
+}
+
+/* Recetas */
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Footer */
+footer {
+  background-color: #f1f1f1;
+  padding: 20px 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Suscripción */
+#suscribete {
+  background: #568203;
+}
+
+#suscribete input {
+  border: none;
+  padding: 10px;
+}
+
+#suscribete .btn-light {
+  font-weight: bold;
+}
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.company-name {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #2c5530;
+}
+
+.main-description, .secondary-description {
+    text-align: center;
+    line-height: 1.6;
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+}
+
+/*carrito*/
+.cart {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  width: 320px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.cart h5 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cart ul {
+  max-height: 250px;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+
+.cart .list-group-item {
+  border: none;
+  border-bottom: 1px solid #eee;
+}
+
+.cart .btn-danger {
+  background-color: #dc3545;
+  border: none;
+  width: 100%;
+  border-radius: 8px;
+  padding: 0.5rem;
+  font-weight: 500;
+}
+.about-section {
+  padding: 40px 20px;
+  background-color: #f8f8f8;
+}
+
+.about-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.about-text {
+  flex: 1 1 50%;
+  min-width: 300px;
+}
+
+.image-container {
+  flex: 1 1 40%;
+  min-width: 300px;
+  text-align: center;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+
+
+
